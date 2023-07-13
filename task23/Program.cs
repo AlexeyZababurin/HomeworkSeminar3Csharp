@@ -5,7 +5,7 @@
 
 void Sqrt (int n)
 {
-    Console.WriteLine($"Таблица квадратов числа от 1 до {n}:", n);
+    Console.WriteLine($"Таблица кубов числа от 1 до {n}:", n);
     for (int i = 1; i < n; i++)
     {
         Console.Write(i*i*i+", ");
